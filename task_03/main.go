@@ -14,8 +14,6 @@ import (
 func CalculateSquares(wg *sync.WaitGroup, num int, ch chan<- int) {
 	defer wg.Done()
 	ch <- num * num
-	//TODO: delete
-	fmt.Println(num * num)
 }
 
 func main() {
