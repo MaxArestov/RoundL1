@@ -29,7 +29,7 @@ func BinarySearch(arr []int, target int) int {
 
 func main() {
 	array := []int{1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21} // Создаем срез интов
-	target := 19                                          // Задаем таргет
+	target := 7                                           // Задаем таргет
 
 	result := BinarySearch(array, target)
 	if result != -1 {
